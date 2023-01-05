@@ -1,19 +1,32 @@
 package com.example.springin5steps;
 
 public class BinarySearchImpl {
-    // Sorting an array
-    // Search an array
-    // Return the result
+
+   private SortAlgorithm sortAlgorithm;
+
+
+
+    public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
+        super();
+        this.sortAlgorithm = sortAlgorithm;
+    }
 
     public int binarySearch(int[] numbers, int numberToSearchFor) {
 
-        // Implementing Sorting Logic
-        // Bubble Sort Algorithm
-        // Quick sort
+       // BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
+        int[] sortedNumbers = sortAlgorithm.sort(numbers);
+        System.out.println(sortAlgorithm);
 
-        // Search the array
-        
+
+
         return 3;
+    }
+
+    @Override
+    public String toString() {
+        return "BinarySearchImpl{" +
+                "sortAlgorithm=" + sortAlgorithm +
+                '}';
     }
 
 }
