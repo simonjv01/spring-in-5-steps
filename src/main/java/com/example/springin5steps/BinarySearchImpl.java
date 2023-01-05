@@ -6,6 +6,13 @@ public class BinarySearchImpl {
     // Return the result
 
     public int binarySearch(int[] numbers, int numberToSearchFor) {
+
+        // Implementing Sorting Logic
+        // Bubble Sort Algorithm
+        // Quick sort
+
+        // Search the array
+        
         return 3;
     }
 
