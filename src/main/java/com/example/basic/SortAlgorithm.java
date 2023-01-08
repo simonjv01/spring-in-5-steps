@@ -1,4 +1,4 @@
-package com.example.springin5steps;
+package com.example.basic;
 
 public interface SortAlgorithm {
 
