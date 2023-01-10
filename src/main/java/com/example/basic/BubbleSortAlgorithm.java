@@ -1,13 +1,14 @@
 package com.example.basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Qualifier("bubble")
 public class BubbleSortAlgorithm implements SortAlgorithm {
     public int[] sort(int[] numbers) {
-        // logic for bubble sort
+        // Logic for Bubble Sort
         return numbers;
     }
 }
